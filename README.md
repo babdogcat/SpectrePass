@@ -45,7 +45,7 @@ Same image, tested on an AI Image Detector:
 
 ## Download & Run
 
-1. Download `SpectrePass.exe` from this repo (or Releases).
+1. Download `SpectrePass.exe` from Releases.
 2. Double-click to run (Windows 10/11, no Python needed).
 3. **Add Images** or **Add Folder** → pick output folder → set quality → **SCRUB IMAGES**.
 4. Scrubbed files are saved as `<name>_scrubbed.<ext>` in the output folder.
@@ -78,7 +78,6 @@ pyinstaller --noconfirm --onefile --windowed --name SpectrePass scrubber_ui.py
 
 ```
 .
-├── SpectrePass.exe        # ready-to-run Windows app
 ├── Example2.png           # before: detected 99% FAKE
 ├── Example.png            # after: detected 71% REAL
 ├── README.md
