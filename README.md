@@ -83,6 +83,7 @@ pyinstaller --noconfirm --onefile --windowed --name SpectrePass scrubber_ui.py
 ├── README.md
 └── source code/
     └── scrubber.py        # core pipeline (process_image)
+    └── scrubber_ui.py     # UI Version
 ```
 
 ## Notes & Disclaimer
